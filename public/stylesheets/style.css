@@ -4,6 +4,18 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 
+li {
+  height: 50px;
+  color: blueviolet;
+  margin-bottom: 15px;
+}
+li > img {
+  height: 30px;
+}
+
+div > img {
+  height: 100px;
+}
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
